@@ -1,0 +1,4 @@
+#Wed Apr 25 20:26:05 IST 2018
+base.0=C\:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

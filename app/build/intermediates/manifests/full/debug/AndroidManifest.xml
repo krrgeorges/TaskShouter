@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.recluse.xicor.taskshouter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" >
+        <activity
+            android:name="com.recluse.xicor.taskshouter.LauncherActivity"
+            android:theme="@style/MyMaterialTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.recluse.xicor.taskshouter.InsertTaskActivity"
+            android:theme="@style/MyMaterialTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.recluse.xicor.taskshouter.IntervalActivity"
+            android:theme="@style/ActivityDialog" />
+        <activity
+            android:name="com.recluse.xicor.taskshouter.UpdateTaskActivity"
+            android:theme="@style/MyMaterialTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service
+            android:name="com.recluse.xicor.taskshouter.ReminderNotif"
+            android:icon="@drawable/ic_volume_up_black_speak_test"
+            android:label="ReminderNotif" />
+
+        <receiver android:name="com.recluse.xicor.taskshouter.RemStart" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.recluse.xicor.taskshouter.ITOutsideActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:theme="@style/ActivityDialog" />
+    </application>
+
+</manifest>

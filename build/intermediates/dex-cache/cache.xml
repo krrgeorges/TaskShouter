@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\ranjit\.android\build-cache\15439062b2e1d3832fd75ecc4dfcf618ab4a006b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="83eb6c15233352efe2f03c54ed9bcbdc977e7866">
+        <dex dex="C:\Users\ranjit\AndroidStudioProjects\TaskShouter\app\build\intermediates\pre-dexed\debug\classes_8d261396e47e8753e5f7992ba8108ad6c51fe979.jar" />
+    </item>
+
+</items>

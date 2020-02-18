@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_keyboard_arrow_down_black_24dp.png",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_keyboard_arrow_down_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_keyboard_arrow_left_black_back.png",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_keyboard_arrow_left_black_back.png"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_volume_up_black_speak_test.png",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_volume_up_black_speak_test.png"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_add_circle_black_mb.png",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_circle_black_mb.png"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_search_black_ab.png",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search_black_ab.png"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_add_black_mb.png",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_black_mb.png"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_settings_black_ab.png",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_settings_black_ab.png"
+    }
+]

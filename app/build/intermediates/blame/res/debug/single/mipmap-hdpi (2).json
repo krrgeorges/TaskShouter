@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    }
+]

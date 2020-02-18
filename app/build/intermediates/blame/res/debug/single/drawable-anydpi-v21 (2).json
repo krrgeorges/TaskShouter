@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_settings_black_ab.xml",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings_black_ab.xml"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\ranjit\\.android\\build-cache\\0f8aa4f834a73320a26b8d3b1941180af44b3fbe\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_keyboard_arrow_left_black_back.xml",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_keyboard_arrow_left_black_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_search_black_ab.xml",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search_black_ab.xml"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_keyboard_arrow_down_black_24dp.xml",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_keyboard_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_add_circle_black_mb.xml",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_circle_black_mb.xml"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\ranjit\\.android\\build-cache\\0f8aa4f834a73320a26b8d3b1941180af44b3fbe\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_volume_up_black_speak_test.xml",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_volume_up_black_speak_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_add_black_mb.xml",
+        "source": "C:\\Users\\ranjit\\AndroidStudioProjects\\TaskShouter\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_black_mb.xml"
+    }
+]

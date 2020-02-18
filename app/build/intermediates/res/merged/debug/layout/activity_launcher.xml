@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.recluse.xicor.taskshouter.LauncherActivity"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/task_body">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:layout_marginLeft="-10dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp"
+            app:elevation="0dp">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:gravity="center">
+                <Spinner
+                    android:id="@+id/categories"
+                    android:layout_height="wrap_content"
+                    android:layout_width="250dp"
+                    android:foreground="#000"
+                    android:layout_marginLeft="-9dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/text_border"
+                    android:spinnerMode="dropdown"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:paddingTop="9dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_settings_black_ab"
+                    android:background="@null"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:paddingTop="9dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_search_black_ab"
+                    android:background="@null"/>
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+        <TextView
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="9dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            fontPath="fonts/Montserrat-Medium.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/task_count"
+            android:textSize="16sp"
+            android:textColor="#000"
+            tools:ignore="MissingPrefix" />
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/task_container">
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/main_task_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="20th April 2018"
+                        fontPath="fonts/Montserrat-Bold.otf"
+                        tools:ignore="MissingPrefix"
+                        android:paddingTop="9dp"
+                        android:paddingBottom="9dp"
+                        android:background="@drawable/date_border"
+                        android:textColor="#FFF"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"/>
+                    <LinearLayout
+                        android:background="@drawable/card_layed"
+                        android:layout_marginTop="10dp"
+                        android:padding="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/card_layout">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+                            <TextView
+                                fontPath="fonts/Montserrat-Medium.ttf"
+                                android:layout_width="match_parent"
+                                android:layout_weight="2"
+                                android:textColor="#FFF"
+                                android:text="5:45 AM"
+                                android:layout_height="wrap_content"
+                                tools:ignore="MissingPrefix" />
+                            <TextView
+                                fontPath="fonts/Montserrat-Medium.ttf"
+                                android:layout_width="match_parent"
+                                android:layout_weight="2"
+                                android:textColor="#FFF"
+                                android:gravity="right"
+                                android:text="Regular"
+                                android:layout_height="wrap_content"
+                                tools:ignore="MissingPrefix" />
+                        </LinearLayout>
+                        <TextView
+                            fontPath="fonts/Montserrat-Medium.ttf"
+                            android:layout_marginTop="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFF"
+                            android:text="Close the Windows"
+                            android:textSize="20sp"
+                            tools:ignore="MissingPrefix" />
+                        <LinearLayout
+                            android:layout_marginTop="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+                            <TextView
+                                fontPath="fonts/Montserrat-Medium.ttf"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:text="Notification with Speech"
+                                android:textColor="#FFF"
+                                android:layout_height="wrap_content"
+                                tools:ignore="MissingPrefix" />
+                            <android.support.v7.widget.SwitchCompat
+                                android:layout_weight="3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:theme="@style/SwitchCompatStyle"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/for_no_tasks"
+        android:background="@null">
+        <TextView
+            android:id="@+id/tv_for_no_tasks"
+            fontPath="fonts/Montserrat-Medium.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ADD A NEW TASK"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            tools:ignore="MissingPrefix" />
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/insert_task"
+        android:layout_width="70dp"
+        app:backgroundTint="#1A5276"
+        android:layout_height="70dp"
+        android:layout_marginRight="12dp"
+        android:scaleType="center"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_add_black_mb" />
+
+</android.support.design.widget.CoordinatorLayout>
